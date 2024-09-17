@@ -1,0 +1,197 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #282c34;
+    padding: 20px 0;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin: 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+/* Main Styles */
+main {
+    padding: 40px 0;
+}
+
+.invite-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.invite-container {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+}
+
+.invite-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #282c34;
+}
+
+.invite-container h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #777;
+}
+
+.image-container {
+    margin-bottom: 30px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+ul li {
+    font-size: 1.2em;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 3px solid #282c34;
+    border-radius: 5px;
+}
+
+/* Map Link */
+a.map-link {
+    display: inline-block;
+    background-color: #282c34;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+a.map-link:hover {
+    background-color: #1f242a;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .invite-container {
+        padding: 20px;
+    }
+
+    .invite-container h2 {
+        font-size: 2em;
+    }
+
+    .invite-container h3 {
+        font-size: 1.2em;
+    }
+
+    ul li {
+        font-size: 1em;
+    }
+}
