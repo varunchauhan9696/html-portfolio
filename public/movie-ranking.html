@@ -5,43 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Ranking</title>
+    <link rel="stylesheet" href="./movie.css">
 </head>
 
 <body>
-    <h1>The Best Movies According to Varun</h1>
-    <h2>My top 3 movies of all-time.</h2>
-    <hr />
-    <h3>Avengers End Game</h3>
-    <img src="../assets/images/Avengers_Endgame_poster.jpg" />
-    <p>"Avengers: Endgame" is a great movie because it masterfully brings together over a decade of storytelling in the
-        Marvel Cinematic Universe, delivering a satisfying and emotionally charged conclusion to beloved character arcs.
-        The film balances epic action sequences with moments of heartfelt emotion, allowing the audience to connect
-        deeply with its characters as they face their greatest challenges. Its meticulous attention to detail, combined
-        with brilliant performances, stunning visual effects, and a perfect blend of humor and drama, make it a
-        cinematic spectacle that resonates with both long-time fans and newcomers. Additionally, "Endgame" celebrates
-        themes of sacrifice, teamwork, and redemption, making it not just a superhero movie, but a meaningful narrative
-        about the power of unity and resilience in the face of overwhelming odds.</p>
-    <h3>Avengers Infinity War</h3>
-    <img src="../assets/images/Avengers_Infinity_War_poster.jpg" />
-    <p>Avengers: Infinity War is a remarkable movie because it masterfully balances an ensemble cast of beloved
-        characters while delivering a complex, engaging narrative. The film's pacing is tight, with each scene
-        propelling the story forward toward an epic showdown with one of the most formidable villains in cinematic
-        history, Thanos. What makes Infinity War stand out is its boldness in taking risks, particularly with its dark,
-        unexpected ending, which leaves audiences emotionally invested and eager for the next chapter. The visual
-        effects, action sequences, and character development are all top-notch, making it not just a superhero movie,
-        but a cinematic spectacle that resonates with both casual viewers and longtime fans of the Marvel Cinematic
-        Universe.</p>
-    <h3>Deadpool & Wolverine</h3>
-    <img src="../assets/images/d&w_poster.jfif" />
-    <p> Deadpool & Wolverine is a great movie because it brings together two of the most iconic and beloved anti-heroes
-        in the Marvel universe, each with their own unique style and fanbase. The film brilliantly blends Deadpool’s
-        irreverent humor, breaking the fourth wall, and over-the-top action sequences with Wolverine’s gruff,
-        no-nonsense attitude and intense, gritty combat skills. This unlikely but highly entertaining pairing allows for
-        a perfect balance of comedy and serious stakes, keeping audiences engaged and entertained throughout. The
-        chemistry between Ryan Reynolds and Hugh Jackman is electric, and the film’s self-aware humor, combined with
-        brutal fight scenes and heart-pounding moments, creates an unforgettable cinematic experience. Additionally, the
-        movie pays homage to the comic book roots of both characters, providing fan service while also pushing the
-        boundaries of what superhero movies can achieve.</p>
+    <header>
+        <div class="container">
+            <h1>Varun's Movie Rankings</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#rankings">Rankings</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="intro">
+                <h2>My top 3 movies of all time.</h2>
+                <hr />
+            </section>
+
+            <section id="rankings">
+                <article class="movie">
+                    <h3>Avengers: Endgame</h3>
+                    <img src="../assets/images/Avengers_Endgame_poster.jpg" alt="Avengers: Endgame Poster">
+                    <p>"Avengers: Endgame" is a great movie because it masterfully brings together over a decade of
+                        storytelling in the Marvel Cinematic Universe, delivering a satisfying and emotionally charged
+                        conclusion to beloved character arcs.</p>
+                </article>
+
+                <article class="movie">
+                    <h3>Avengers: Infinity War</h3>
+                    <img src="../assets/images/Avengers_Infinity_War_poster.jpg" alt="Avengers: Infinity War Poster">
+                    <p>"Avengers: Infinity War" is remarkable because it balances an ensemble cast of beloved characters
+                        while delivering a complex, engaging narrative.</p>
+                </article>
+
+                <article class="movie">
+                    <h3>Deadpool & Wolverine</h3>
+                    <img src="../assets/images/d&w_poster.jfif" alt="Deadpool and Wolverine Poster">
+                    <p>"Deadpool & Wolverine" brings together two iconic anti-heroes in the Marvel universe. The film
+                        brilliantly blends Deadpool’s humor and action with Wolverine’s gruff attitude and intense
+                        combat skills.</p>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Varun's Movie Rankings. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
